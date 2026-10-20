@@ -1,0 +1,43 @@
+# Dependencies and Python bytecode
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output, test reports, and caches
+/dist/
+/build/
+coverage/
+.next/
+.nuxt/
+.output/
+.cache/
+.turbo/
+.pytest_cache/
+*.tsbuildinfo
+
+# Local environment files (keep templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.*.sample
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Personal IDE settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
